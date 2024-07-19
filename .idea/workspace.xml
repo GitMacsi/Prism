@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Prism:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61f33c4a-6562-49c9-93a9-ee4b1207fd36" name="Default Changelist" comment="quick backup">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/CommandService/SubCommands/PreviewSubcommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/Models/RegionChunk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/CommandService/Commands/player/ClaimBiome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/CommandService/Commands/player/ClaimBiome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/CommandService/Commands/player/DiscordLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/CommandService/Commands/player/DiscordLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/CommandService/Commands/player/PlayerHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/CommandService/Commands/player/PlayerHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/CommandService/SubCommands/CreateSubCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/CommandService/SubCommands/CreateSubCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/CommandService/commandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/CommandService/commandExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/EventService/Events/player/PlayerBlockBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/EventService/Events/player/PlayerBlockBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/EventService/Events/player/PlayerBlockPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/EventService/Events/player/PlayerBlockPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/Models/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/Models/Region.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/Utils/RegionStorageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prismplugin/prism/prismpckg/Utils/RegionStorageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/.console_history" beforeDir="false" afterPath="$PROJECT_DIR$/testserver/.console_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/ops.json" beforeDir="false" afterPath="$PROJECT_DIR$/testserver/ops.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/testserver/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/testserver/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/DIM-1/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/DIM-1/entities/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/DIM-1/entities/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/DIM-1/entities/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/DIM-1/entities/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/DIM-1/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/DIM-1/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/DIM-1/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/DIM-1/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/paper-world.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/session.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_nether/uid.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/DIM1/data/raids_end.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/DIM1/entities/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/DIM1/entities/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/DIM1/entities/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/DIM1/entities/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/DIM1/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/DIM1/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/DIM1/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/DIM1/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/paper-world.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/session.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testserver/world_the_end/uid.dat" beforeDir="false" />
+    </list>
+    <list id="373673e5-c234-4b04-8872-f59a6fb041c6" name="Revert &quot;Actually, the registerCommands did NOT work AT ALL, idk how I missed it. Whatever, I fixed it and it works GREAT FOR NOW.&quot;" comment="Revert &quot;Actually, the registerCommands did NOT work AT ALL, idk how I missed it. Whatever, I fixed it and it works GREAT FOR NOW.&quot;&#10;&#10;This reverts commit 2f139bcc" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2a4808d6-b6b5-465a-a315-ba54931f5e89" />
+        <option name="url" value="https://github.com/GitMacsi/Prism.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="6psdy131" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SIyrhAd42i5ZHU4EtbJphuIVNK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testserver/plugins" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.prismplugin.prism.prismpckg.commands" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.prismplugin.prism.prismpckg.CommandService.commands.player.claimbiome" />
+      <recent name="com.prismplugin.prism.prismpckg.CommandService.commands.player" />
+      <recent name="com.prismplugin.prism.prismpckg.CommandService.commands" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.prismplugin.prism.prismpckg.Models" />
+      <recent name="com.prismplugin.prism.prismpckg.Utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.Prism build">
+    <configuration name="Prism build" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="start.sh" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/testserver/start.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/testserver" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.Prism build" />
+      <item itemvalue="Shell Script.start.sh" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61f33c4a-6562-49c9-93a9-ee4b1207fd36" name="Default Changelist" comment="" />
+      <created>1688848589608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688848589608</updated>
+      <workItem from="1688848590929" duration="2284000" />
+      <workItem from="1693747241883" duration="2723000" />
+      <workItem from="1694454609292" duration="153000" />
+      <workItem from="1697651536057" duration="74000" />
+      <workItem from="1697651738089" duration="228000" />
+      <workItem from="1697656035108" duration="93000" />
+      <workItem from="1697661027579" duration="58000" />
+      <workItem from="1697661106602" duration="116000" />
+      <workItem from="1697661236169" duration="14000" />
+      <workItem from="1697662192654" duration="7000" />
+      <workItem from="1697662207240" duration="2254000" />
+      <workItem from="1697664533044" duration="665000" />
+      <workItem from="1697665288499" duration="99000" />
+      <workItem from="1697727401356" duration="241000" />
+      <workItem from="1697727733373" duration="181000" />
+      <workItem from="1697731522369" duration="1735000" />
+      <workItem from="1697733505530" duration="32000" />
+      <workItem from="1697733624967" duration="4166000" />
+      <workItem from="1697737937069" duration="237000" />
+      <workItem from="1697748488810" duration="1695000" />
+      <workItem from="1697750191663" duration="16000" />
+      <workItem from="1698056110717" duration="76000" />
+      <workItem from="1698056216751" duration="171000" />
+      <workItem from="1698056445963" duration="12968000" />
+      <workItem from="1698071076148" duration="168000" />
+      <workItem from="1698071543778" duration="1620000" />
+      <workItem from="1698073284677" duration="62000" />
+      <workItem from="1698080446801" duration="1858000" />
+      <workItem from="1698170918413" duration="2358000" />
+      <workItem from="1698243608201" duration="385000" />
+      <workItem from="1698488427020" duration="5308000" />
+      <workItem from="1698494327144" duration="3290000" />
+      <workItem from="1699195494052" duration="6833000" />
+      <workItem from="1699210470413" duration="5589000" />
+      <workItem from="1699218107202" duration="2643000" />
+      <workItem from="1699285344306" duration="7041000" />
+      <workItem from="1699293836673" duration="860000" />
+      <workItem from="1699697958925" duration="10000" />
+      <workItem from="1699710909627" duration="3060000" />
+      <workItem from="1699733302400" duration="158000" />
+      <workItem from="1699914477159" duration="1734000" />
+      <workItem from="1700000417849" duration="63000" />
+      <workItem from="1700161899483" duration="1768000" />
+      <workItem from="1700163689128" duration="3968000" />
+      <workItem from="1700227216453" duration="4716000" />
+      <workItem from="1700846667689" duration="154000" />
+      <workItem from="1700848901831" duration="28000" />
+      <workItem from="1700858277356" duration="780000" />
+      <workItem from="1703194882928" duration="3329000" />
+      <workItem from="1703198568695" duration="1091000" />
+      <workItem from="1703333811257" duration="7565000" />
+      <workItem from="1703342341638" duration="44000" />
+      <workItem from="1703368481806" duration="3661000" />
+      <workItem from="1703700569723" duration="31000" />
+      <workItem from="1705606818656" duration="403000" />
+      <workItem from="1705607306467" duration="30000" />
+      <workItem from="1705845404893" duration="123000" />
+      <workItem from="1706986741815" duration="9301000" />
+      <workItem from="1707036200167" duration="4145000" />
+      <workItem from="1707040359807" duration="86000" />
+      <workItem from="1707052780647" duration="8576000" />
+      <workItem from="1707245335200" duration="373000" />
+      <workItem from="1707420559193" duration="7706000" />
+      <workItem from="1707430836034" duration="1742000" />
+      <workItem from="1707471348310" duration="1265000" />
+      <workItem from="1707518137743" duration="12000" />
+      <workItem from="1707558707452" duration="3407000" />
+      <workItem from="1707591202978" duration="4266000" />
+      <workItem from="1707646890679" duration="1286000" />
+      <workItem from="1707747694439" duration="3208000" />
+      <workItem from="1707829156913" duration="13747000" />
+      <workItem from="1707933315417" duration="3071000" />
+      <workItem from="1707945868840" duration="1546000" />
+      <workItem from="1708114816676" duration="5689000" />
+      <workItem from="1708177894410" duration="807000" />
+      <workItem from="1708203327005" duration="1406000" />
+      <workItem from="1708204740751" duration="128000" />
+      <workItem from="1708343829735" duration="5751000" />
+      <workItem from="1708350478715" duration="637000" />
+      <workItem from="1708351124097" duration="513000" />
+      <workItem from="1708369063805" duration="6720000" />
+      <workItem from="1708376308612" duration="49000" />
+      <workItem from="1708378298797" duration="5763000" />
+      <workItem from="1708433378025" duration="2186000" />
+      <workItem from="1708691138868" duration="997000" />
+      <workItem from="1708692467127" duration="1150000" />
+      <workItem from="1708694212760" duration="4162000" />
+      <workItem from="1708701389587" duration="882000" />
+      <workItem from="1708702287231" duration="10525000" />
+      <workItem from="1708771859908" duration="7052000" />
+      <workItem from="1709405749131" duration="62000" />
+      <workItem from="1713046848645" duration="2165000" />
+      <workItem from="1713380406378" duration="469000" />
+      <workItem from="1713382309450" duration="152000" />
+      <workItem from="1713384293390" duration="697000" />
+      <workItem from="1716297640038" duration="4910000" />
+      <workItem from="1716307720987" duration="4000" />
+      <workItem from="1716313026064" duration="611000" />
+      <workItem from="1716400783620" duration="134000" />
+      <workItem from="1716668925574" duration="374000" />
+      <workItem from="1716721284813" duration="474000" />
+      <workItem from="1716723506650" duration="1325000" />
+      <workItem from="1717178148848" duration="512000" />
+      <workItem from="1721395690968" duration="248000" />
+      <workItem from="1721396328965" duration="105000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1697664900939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697664900939</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added a A">
+      <option name="closed" value="true" />
+      <created>1697665337819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697665337819</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added a A">
+      <option name="closed" value="true" />
+      <created>1697665353726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697665353726</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Removed a A">
+      <option name="closed" value="true" />
+      <created>1697731976704</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697731976704</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Optimizations to commands and better code, project now builds into the testserver/plugins.">
+      <option name="closed" value="true" />
+      <created>1697737253720</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697737253720</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Optimizations to commands and better code, project now builds into the testserver/plugins.">
+      <option name="closed" value="true" />
+      <created>1697737489744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697737489744</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Made it easier to add commands, and lots of optimizing done(Probably made it slower lol)">
+      <option name="closed" value="true" />
+      <created>1698069916005</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698069916005</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cleared up the code">
+      <option name="closed" value="true" />
+      <created>1698070835644</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698070835645</updated>
+    </task>
+    <task id="LOCAL-00009" summary="The red dots disable code xd">
+      <option name="closed" value="true" />
+      <created>1698073339203</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698073339203</updated>
+    </task>
+    <task id="LOCAL-00010" summary="did things ig">
+      <option name="closed" value="true" />
+      <created>1699285400023</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699285400023</updated>
+    </task>
+    <task id="LOCAL-00011" summary="The claim biome works almost perfectly and faster than expected, started the event listener but I still need to save the chunks to a config file which will be painful. I am very proud how the claim biome turned out! I wonder if it can be more optimized??">
+      <created>1706999885015</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706999885015</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Had to commit again because the server was running lol (world session lock yk)">
+      <created>1707000290783</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707000290783</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Too lazy to write desc">
+      <created>1708115581028</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708115581028</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Things are finally working normally, better performance and I can finally add command arguments to ClaimBiome.java. Still undecided whether I should use /claimbiome ; /bclaim ; /claimb ;/claim. might add a config for that idk.Bye!">
+      <created>1708121938444</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708121938445</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Optimized command and event registering in Main.class">
+      <created>1708349544887</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708349544887</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Actually, the registerCommands did NOT work AT ALL, idk how I missed it. Whatever, I fixed it and it works GREAT FOR NOW.">
+      <created>1708376053246</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708376053246</updated>
+    </task>
+    <task id="LOCAL-00017" summary=" Actually, the registerCommands did NOT work AT ALL, idk how I missed it. Whatever, I fixed it and it works GREAT FOR NOW.">
+      <created>1708376145943</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708376145943</updated>
+    </task>
+    <task id="LOCAL-00018" summary="quick backup">
+      <created>1708701524713</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1708701524713</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <MESSAGE value="Added a A" />
+    <MESSAGE value="Removed a A" />
+    <MESSAGE value="Optimizations to commands and better code, project now builds into the testserver/plugins." />
+    <MESSAGE value="Made it easier to add commands, and lots of optimizing done(Probably made it slower lol)" />
+    <MESSAGE value="Cleared up the code" />
+    <MESSAGE value="The red dots disable code xd" />
+    <MESSAGE value="did things ig" />
+    <MESSAGE value="The claim biome works almost perfectly and faster than expected, started the event listener but I still need to save the chunks to a config file which will be painful. I am very proud how the claim biome turned out! I wonder if it can be more optimized??" />
+    <MESSAGE value="Had to commit again because the server was running lol (world session lock yk)" />
+    <MESSAGE value="Too lazy to write desc" />
+    <MESSAGE value="Things are finally working normally, better performance and I can finally add command arguments to ClaimBiome.java. Still undecided whether I should use /claimbiome ; /bclaim ; /claimb ;/claim. might add a config for that idk.Bye!" />
+    <MESSAGE value="Optimized command and event registering in Main.class" />
+    <MESSAGE value="Actually, the registerCommands did NOT work AT ALL, idk how I missed it. Whatever, I fixed it and it works GREAT FOR NOW." />
+    <MESSAGE value=" Actually, the registerCommands did NOT work AT ALL, idk how I missed it. Whatever, I fixed it and it works GREAT FOR NOW." />
+    <MESSAGE value="quick backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="quick backup" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

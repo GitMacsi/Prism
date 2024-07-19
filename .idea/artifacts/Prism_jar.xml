@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Prism:jar">
+    <output-path>$PROJECT_DIR$/testserver/plugins</output-path>
+    <properties id="ant-preprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="Prism.jar">
+      <element id="module-output" name="Prism" />
+      <element id="library" level="project" name="Maven: net.md-5:bungeecord-chat:1.16-R0.4-deprecated+build.9" />
+    </root>
+  </artifact>
+</component>

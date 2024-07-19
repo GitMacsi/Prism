@@ -1,0 +1,140 @@
+[21:31:00] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:31:01] [ServerMain/INFO]: Loaded 7 recipes
+[21:31:02] [Server thread/INFO]: Starting minecraft server version 1.20
+[21:31:02] [Server thread/INFO]: Loading properties
+[21:31:02] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[21:31:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:31:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:31:02] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[21:31:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[21:31:02] [Server thread/INFO]: Default game type: SURVIVAL
+[21:31:02] [Server thread/INFO]: Generating keypair
+[21:31:02] [Server thread/INFO]: Starting Minecraft server on *:3000
+[21:31:02] [Server thread/INFO]: Using default channel type
+[21:31:02] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[21:31:02] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[21:31:03] [Server thread/INFO]: [Prism] Loading server plugin Prism v1.0-SNAPSHOT
+[21:31:03] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[21:31:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@489a6a8]
+[21:31:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:31:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[21:31:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:31:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:31:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[21:31:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:31:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:31:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:31:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:31:04] [Server thread/INFO]: Preparing level "world"
+[21:31:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:31:05] [Server thread/INFO]: Time elapsed: 139 ms
+[21:31:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:31:05] [Server thread/INFO]: Time elapsed: 33 ms
+[21:31:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:31:05] [Server thread/INFO]: Time elapsed: 23 ms
+[21:31:05] [Server thread/INFO]: [Prism] Enabling Prism v1.0-SNAPSHOT
+[21:31:05] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 37 ms to scan 1 urls, producing 1 keys and 2 values
+[21:31:05] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 8 ms to scan 1 urls, producing 1 keys and 4 values
+[21:31:05] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:31:05] [Server thread/INFO]: Plugin started
+[21:31:05] [Server thread/INFO]: Running delayed init tasks
+[21:31:05] [Server thread/INFO]: Done (3.466s)! For help, type "help"
+[21:31:05] [Server thread/INFO]: Timings Reset
+[21:32:19] [User Authenticator #0/INFO]: UUID of player macsi_ is e97e72a8-6d15-3a23-af07-8def40311e27
+[21:32:21] [Server thread/INFO]: macsi_ joined the game
+[21:32:21] [Server thread/INFO]: macsi_[/127.0.0.1:61760] logged in with entity id 142 at ([world]2.5, 80.0, -22.5)
+[21:32:42] [Server thread/INFO]: macsi_ issued server command: /gamemode creative
+[21:32:42] [Server thread/INFO]: [macsi_: Set own game mode to Creative Mode]
+[21:32:53] [Server thread/INFO]: macsi_ issued server command: /spawnpoint
+[21:32:53] [Server thread/INFO]: [macsi_: Set spawn point to 6, 99, -9 [0.0] in minecraft:overworld for macsi_]
+[21:33:34] [User Authenticator #1/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[21:33:34] [Server thread/INFO]: test joined the game
+[21:33:34] [Server thread/INFO]: test[/127.0.0.1:61795] logged in with entity id 209 at ([world]-6.287810715840235, 101.0, -10.789720370247316)
+[21:34:07] [Server thread/INFO]: test lost connection: Disconnected
+[21:34:07] [Server thread/INFO]: test left the game
+[21:35:08] [User Authenticator #2/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[21:35:08] [Server thread/INFO]: test joined the game
+[21:35:08] [Server thread/INFO]: test[/127.0.0.1:61820] logged in with entity id 224 at ([world]7.908104187923008, 99.0, -9.699999988079071)
+[21:35:58] [Server thread/INFO]: test lost connection: Disconnected
+[21:35:58] [Server thread/INFO]: test left the game
+[21:40:56] [User Authenticator #3/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[21:40:56] [Server thread/INFO]: test joined the game
+[21:40:56] [Server thread/INFO]: test[/127.0.0.1:61878] logged in with entity id 290 at ([world]5.6635632755010175, 100.0, -11.882097123117745)
+[21:43:04] [Server thread/INFO]: test lost connection: Disconnected
+[21:43:04] [Server thread/INFO]: test left the game
+[21:49:21] [User Authenticator #4/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[21:49:22] [Server thread/INFO]: test joined the game
+[21:49:22] [Server thread/INFO]: test[/127.0.0.1:61968] logged in with entity id 435 at ([world]6.532211191116361, 102.0, -12.24088659024043)
+[21:51:30] [Server thread/INFO]: test lost connection: Disconnected
+[21:51:30] [Server thread/INFO]: test left the game
+[21:55:46] [User Authenticator #5/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[21:55:46] [Server thread/INFO]: test joined the game
+[21:55:46] [Server thread/INFO]: test[/127.0.0.1:62032] logged in with entity id 1041 at ([world]8.97242080957127, 99.0, -4.477110222356107)
+[21:56:23] [Server thread/INFO]: test issued server command: /kill macsi_
+[21:56:23] [Server thread/INFO]: macsi_ was killed
+[21:56:23] [Server thread/INFO]: [test: Killed macsi_]
+[22:05:54] [Server thread/INFO]: test lost connection: Disconnected
+[22:05:54] [Server thread/INFO]: test left the game
+[22:06:23] [User Authenticator #6/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[22:06:23] [Server thread/INFO]: test joined the game
+[22:06:23] [Server thread/INFO]: test[/127.0.0.1:62188] logged in with entity id 3706 at ([world]1.818835753673235, 100.0, -10.40331243329838)
+[22:10:05] [Server thread/INFO]: test lost connection: Disconnected
+[22:10:05] [Server thread/INFO]: test left the game
+[22:10:30] [User Authenticator #7/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[22:10:30] [Server thread/INFO]: test joined the game
+[22:10:30] [Server thread/INFO]: test[/127.0.0.1:62254] logged in with entity id 3747 at ([world]0.3222672117256034, 100.0, -6.361325753852329)
+[22:11:26] [Server thread/INFO]: test lost connection: Disconnected
+[22:11:26] [Server thread/INFO]: test left the game
+[22:11:55] [User Authenticator #8/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[22:11:55] [Server thread/INFO]: test joined the game
+[22:11:55] [Server thread/INFO]: test[/127.0.0.1:62303] logged in with entity id 3757 at ([world]0.31645991625623554, 99.0, -13.205422152296775)
+[22:13:24] [Server thread/INFO]: test lost connection: Disconnected
+[22:13:24] [Server thread/INFO]: test left the game
+[22:14:19] [User Authenticator #9/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[22:14:19] [Server thread/INFO]: test joined the game
+[22:14:19] [Server thread/INFO]: test[/127.0.0.1:62377] logged in with entity id 3852 at ([world]6.864741152191278, 99.0, -4.305498229418201)
+[22:19:02] [Server thread/INFO]: test lost connection: Disconnected
+[22:19:02] [Server thread/INFO]: test left the game
+[22:19:39] [User Authenticator #10/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[22:19:39] [Server thread/INFO]: test joined the game
+[22:19:39] [Server thread/INFO]: test[/127.0.0.1:62479] logged in with entity id 4173 at ([world]2.081430260072631, 100.0, -9.265225818984042)
+[22:19:58] [Server thread/INFO]: test lost connection: Disconnected
+[22:19:58] [Server thread/INFO]: test left the game
+[22:20:37] [User Authenticator #10/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[22:20:37] [Server thread/INFO]: test joined the game
+[22:20:37] [Server thread/INFO]: test[/127.0.0.1:62533] logged in with entity id 4183 at ([world]1.1292814815628853, 100.0, -5.382125499662881)
+[22:22:36] [Server thread/INFO]: test lost connection: Disconnected
+[22:22:36] [Server thread/INFO]: test left the game
+[22:22:44] [Server thread/INFO]: macsi_ lost connection: Disconnected
+[22:22:44] [Server thread/INFO]: macsi_ left the game
+[22:22:53] [Server thread/INFO]: Stopping the server
+[22:22:53] [Server thread/INFO]: Stopping server
+[22:22:53] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
+[22:22:53] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:22:53] [Server thread/INFO]: [Prism] Disabling Prism v1.0-SNAPSHOT
+[22:22:53] [Server thread/INFO]: Saving players
+[22:22:53] [Server thread/INFO]: Saving worlds
+[22:22:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:22:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:22:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:22:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:22:54] [Server thread/INFO]: [ChunkHolderManager] Saved 16 block chunks, 127 entity chunks, 0 poi chunks in world 'world' in 0.08s
+[22:22:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:22:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:22:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:22:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:22:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:22:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 19 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[22:22:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:22:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:22:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:22:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:22:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:22:54] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[22:22:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:22:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:22:54] [Server thread/INFO]: Flushing Chunk IO
+[22:22:54] [Server thread/INFO]: Closing Thread Pool
+[22:22:54] [Server thread/INFO]: Closing Server

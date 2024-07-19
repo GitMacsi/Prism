@@ -1,0 +1,23 @@
+name: Prism
+version: '${project.version}'
+main: com.prismplugin.prism.prismpckg.Main
+api-version: '1.20'
+commands:
+  help:
+    description: Displays help message
+    usage: /help
+
+  selfkill:
+    description: Will kill you
+    usage: /selfkill
+
+  discord:
+    description: Displays Discord link
+    usage: /discord
+
+  claimbiome:
+    description: Claim a biome for yourself (Beta)
+    usage: /claimbiome
+    aliases:
+      - bclaim
+      - claim
